@@ -1,0 +1,6 @@
+====================
+Running Tests
+====================
+Tests can be run using nose framework as follows -
+$ cd <repository-base>/MovieBrowser
+$ nosetests
