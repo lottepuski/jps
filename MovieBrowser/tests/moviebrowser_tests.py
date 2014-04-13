@@ -30,3 +30,6 @@ def test_sqlalchemy_version():
     import sqlalchemy
     print "SQLAlchemy version {:}".format(sqlalchemy.__version__)
     assert map(int, sqlalchemy.__version__.split(".")) > [0, 7, 8]
+
+def test_database():
+    pass
